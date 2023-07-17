@@ -1,0 +1,31 @@
+footer {
+    display: flex;
+    height: 100px;
+    background-color: #090909;
+    justify-content: center;
+    gap: 70px;
+}
+footer {
+    display: flex;
+    align-items: center;
+}
+.arrowBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #090909;
+    width: 13px;
+    height: 50px;
+    cursor: pointer
+}
+.arrowIcon {
+    width: 13px;
+    transition: all linear 0.1s;
+}
+
+@media only screen and (max-width: 800px) {
+    footer {
+        display: none;
+    }
+}

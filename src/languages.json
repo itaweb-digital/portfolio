@@ -1,0 +1,108 @@
+{
+    "portuguese" : {
+        "menu": {
+            "page1": "Quem somos",
+            "page2": "Projetos",
+            "page3": "Tecnologias",
+            "page4": "Contato"
+        },
+
+        "initialHomePage": {
+        "header": {
+            "h1": "Criamos produtos digitais",
+            "h2": "profissionais."
+        },
+        "button": "Explorar"
+        },
+
+        "SPAPage": {
+            "whoAreU": {
+                "header": "Somos especializados na criação de sites e apps.",
+                "paragraph": {
+                    "p1": "Desenvolvemos produtos digitais com identidade e marca para empresas e negócios.",
+                    "p2": "Fazemos isso através de estudos de mercado, conceitos sólidos de interface, experiência do usuário (ux, ui) e no comportamento do usuário.",
+                    "p3": "Em outras palavras, fazemos uma marca ou ideia ter identidade própria e a posicionamos na internet."
+                }
+            },
+            "projects": {
+                "confideins": {
+                    "header": "Confideins",
+                    "paragraph": "Aplicativo de celular de gerenciamento de contas e senhas de forma segura e criptografada. Feito utilizando as tecnologias React Native, Typescript e FireBase."
+                },
+                "telebot": {
+                    "header": "Telebot",
+                    "paragraph": "Software de automatização de envio de mensagens no Telegram, com funcionalidades exclusivas no mercado, como a possibilidade de configurar massivamente vastas formas de envio de mensagens ( quantidade, delay, timeout ... ) e com uma interface extremamente amigável. Aplicativo de desktop para Windows 10."
+                }
+            },
+            "techs": {
+                "header": "Nossa stack.",
+                "paragraph": {
+                    "p1": "Utilizamos uma série de tecnologias avançadas e modernas para a convecção de nossas aplicações e sistemas para os nossos clientes.",
+                    "p2": "Esse conhecimento nos possibilita criar os mais diversos sistemas e interfaces requeridas pelas demandas de nossos clientes."
+                }
+            },
+            "contact": {
+                "aboutMe": "Front-End & Full-Stack developer, product designer.",
+                
+                "name": "Insira seu nome",
+                "email": "Insira seu email",
+                "message": "Insira a sua mensagem",
+                "send": "Enviar email"
+            }
+        }
+    },
+
+
+    "english" : {
+        "menu": {
+            "page1": "About us",
+            "page2": "Projects",
+            "page3": "Technologies",
+            "page4": "Contact"
+        },
+
+        "initialHomePage": {
+            "header": {
+                "h1": "We made professional",
+                "h2": "digital products."
+            },
+        "button": "Explore"
+        },
+
+        "SPAPage": {
+            "whoAreU": {
+                "header": "We are experts in websites and apps creation.",
+                "paragraph": {
+                    "p1": "We made digital products with idendity and brand for business and enterprises.",
+                    "p2": "We do it through studies of the Marketplace, solid concepts of interfaces, user experiences (ux,ui) and in the user behavior",
+                    "p3": "Another words, we make a brand or idea have a own identity and we put it on the internet."
+                }
+            },
+            "projects": {
+                "confideins": {
+                    "header": "Confideins",
+                    "paragraph": "Mobile app of management of accounts and passwords in a safe way and with criptography. Made with React Native, Typescript and Firebase."
+                },
+                "telebot": {
+                    "header": "Telebot",
+                    "paragraph": "An automation software of message sending in Telegram, with excluisve functionalities, offering the possibility of configurate so much ways of sending message ( quantity, delay, timeout ... ) and with a friendly interface. Windows 10 desktop app."
+                }
+            },
+            "techs": {
+                "header": "Our stack.",
+                "paragraph": {
+                    "p1": "We've a series of advanced and moderns technologies to convection of our applications and systems for our clients.",
+                    "p2": "This knowledge enable us to create the more diverses systems and interfaces that our clients require."    
+                }
+            },
+            "contact": {
+                "aboutMe": "Front-End & Full-Stack developer, product designer.",
+
+                "name": "Enter your name",
+                "email": "Enter your email",
+                "message": "Enter your message",
+                "send": "Send email"
+            }
+        }
+    }  
+}

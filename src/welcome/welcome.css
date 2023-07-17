@@ -1,0 +1,197 @@
+#welcome {
+    position: absolute;
+    background: #1A1A1B;
+    background: linear-gradient(315deg, #1A1A1B, #000000);
+    /*background: linear-gradient(315deg, #1A1A1B, #090909);*/
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    align-items: center;
+    z-index: 999;
+}
+#welcomeGroup {
+    position: relative;
+}
+#welcome .visibleContent {
+    display: flex;
+    z-index: 10;
+}
+#welcomePageHeader {
+    display: flex;
+    position: absolute;
+    height: 120px;
+    width: 100%;
+    background-color: #00000000;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    z-index: 999;
+}
+.langButton {
+    height: 28px;
+    border: none;
+    overflow: hidden;
+}
+#brasil, #eua {
+    width: 40px;
+}
+#euaBtn {
+    height: 24px;
+}
+#welcomeContent {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 100vh;
+}
+#welcome .visibleContent {
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    flex-basis: auto;
+    align-items: center;
+    padding: 0px 20px
+}
+#welcomeH2 {
+    margin-top: -10px;
+    background-image: linear-gradient(50deg, #2253FF, #00fff5, #2253FF);
+    font-weight: 600;
+    letter-spacing: 2px;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    animation-name: rolematAnimation;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
+    background-size: 1500px;
+}
+/* width button 250px */
+#buttonDivRow {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#exploreButtonBorder {
+    width: 100%;
+    max-width: 250px;
+    margin-top: 20px;
+    padding: 1px;
+    background: rgb(61,208,255);
+    background: linear-gradient(47deg, rgba(61,208,255,1) 0%, rgba(34,83,255,1) 100%);
+    border-radius: 40px;
+}
+#exploreButtonBorder:hover {
+    cursor: pointer;
+}
+#exploreButton {
+    width: 100%;
+    height: 40px;
+    background-color: #1A1A1B;
+    border: none;
+    border-radius: 40px;
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding-bottom: 1px;
+    color: white;
+    z-index: 100;
+}
+#exploreButton:hover {
+    cursor: pointer;
+}
+
+
+
+#rolematLayer {
+    position: absolute;
+    opacity: 40%;
+    bottom: 0;
+    left: -60px;
+    margin-bottom: 0px;
+    font-size: 500px;
+    height: 155px;
+    padding-top: 321px;
+    z-index: 3;
+    font-weight: 600;
+    color: #1a1a1b20;
+    background: linear-gradient(45deg, #1a1a1b50, #1a1a1b30);
+    letter-spacing: -35px;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+.shape {
+    position: absolute;
+    top: 0;
+    animation-iteration-count: infinite;
+}
+#triangle {
+    top: 90px;
+    left: 100px;
+    animation-name: triangleAnimation;
+    animation-duration: 10s;
+}
+#cube {
+    top: 90px;
+    left: 440px;
+    animation-name: cubeAnimation;
+    animation-duration: 15s;
+}
+#semiCircle {
+    top: 60px;
+    left: 850px;
+    animation-name: semiCircleAnimation;
+    animation-duration: 15s;
+}
+#rectangle {
+    top: 30px;
+    left: 1200px;
+    width: 200px;
+    animation-name: rectangleAnimation;
+    animation-duration: 50s;
+}
+
+
+@keyframes triangleAnimation {
+    0% { rotate: 0deg;}
+    25% { rotate: 90deg}
+    50% { rotate: 90deg}
+    100% { rotate: 0deg;}
+}
+@keyframes cubeAnimation {
+    0% { rotate: 0deg;}
+    25% { rotate: -70deg}
+    50% { rotate: -70deg}
+    100% { rotate: 0deg;}
+}
+@keyframes rectangleAnimation {
+    0% { rotate: 0deg;}
+    50% { rotate: -130deg}
+    100% { rotate: 0deg;}
+}
+@keyframes semiCircleAnimation {
+    0% { rotate: 0deg }
+    50% { rotate: 180deg }
+    100% { rotate: 0deg }
+}
+@keyframes rolematAnimation {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #welcomeContent .visibleContent #contentGroup #textDivRow #welcomeH1 {
+        line-height: 25px;
+        margin-bottom: 10px;
+    }
+}

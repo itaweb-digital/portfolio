@@ -1,0 +1,406 @@
+
+/* HOME PAGE */
+
+#homePage {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+scrollabe {
+    display: flex;
+    flex: 1;
+    box-sizing: border-box;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.homePageSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #090909;
+    min-width: 100%;
+    box-sizing: border-box;
+    flex: 1;
+}
+
+@media only screen and (max-width: 800px) {
+    
+  }
+
+/* WHO ARE US */
+
+#whoAreUs > .visibleContent > .contentGroup > .textDivRow > h1 {
+    color: white;
+    text-align: left;
+}
+#whoAreUs > .visibleContent > .contentGroup > .paragraphDivRow > p {
+    color: white;
+    text-align: left;
+    margin-left: 15px;
+}
+#whoAreUs > .visibleContent > .contentGroup {
+    width: 680px;
+}
+
+@media only screen and (max-width: 800px) {
+    #whoAreUs > .visibleContent > .contentGroup > .paragraphDivRow > p {
+        color: white;
+        text-align: left;
+        margin-left: 5px;
+    }
+}
+
+/* PROJECTS */
+#projects {
+    padding-right: 10px;
+}
+#projects .visibleContent {
+    display: inline;
+}
+#projects .visibleContent .contentGroup {
+    display: flex;
+    align-items: start;
+    box-sizing: border-box;
+    gap: 50px;
+}
+.projectGroup {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 100%;
+    gap: 40px
+}
+.projectGroup .imageDiv {
+    display: flex;
+    height: 100%;
+    width: 40%;
+}
+.projectGroup > .textsDiv {
+    display: flex;
+    flex-direction: column;
+    width: 44.3%;
+}
+#confideinsProject {
+    width: 400px;
+}
+#projectsHeader {
+    text-align: left;
+}
+#projectsParagraph {
+    text-align: left;
+}
+@media only screen and (max-width: 380px) {
+    .projectGroup {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 20px
+    }
+    .projectGroup > .textsDiv {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .projectGroup .imageDiv {
+        display: flex;
+        width: 100%;
+    }
+    .br2 {
+        display: none;
+    }
+}
+@media only screen and (max-width: 580px) and (min-width: 380px) {
+    .projectGroup {
+        flex-direction: column-reverse;
+        gap: 20px
+    }
+    .projectGroup > .textsDiv {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .projectGroup .imageDiv {
+        display: flex;
+        width: 70%;
+    }
+    .br2 {
+        display: none;
+    }
+}
+@media only screen and (max-width: 800px) and (min-width: 580px) {
+    .projectGroup {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 20px
+    }
+    .projectGroup > .textsDiv {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .projectGroup .imageDiv {
+        display: flex;
+        width: 70%;
+    }
+    .br2 {
+        display: none;
+    }
+}
+
+/* TECHNOLOGIES */
+
+.technologiesGroup {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    box-sizing: border-box;
+}
+#technologiesHeader {
+    text-align: left;
+}
+#technologiesParagraph {
+    text-align: left;
+}
+.technologiesGroup > .textsDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35%;
+}
+.technologiesGroup > .stacksDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.stackDiv {
+    display: flex;
+    padding: 3px;
+    padding-left: 10px;
+    background-color: #1a1a1b;
+    align-items: center;
+    min-width: 400px;
+    background-image: linear-gradient(#090909, #0f0f10);
+    border-radius: 10px;
+}
+.stackIcon {
+    width: 2em;
+    height: 2em;
+    margin-left: 5px;
+}
+.stackTitle {
+    font-size: 25px;
+    font-weight: 400;
+    margin-left: 20px;
+}
+#reactNative {
+    width: 32px;
+    height: 27px;
+}
+/*
+#redux {
+    width: 31px;
+    height: 28px;
+}*/
+#sql {
+    width: 27px;
+    height: 28px;
+}
+#node {
+    width: 25px;
+    height: 28px;
+}
+
+@media only screen and (max-width: 800px) {
+    .technologiesGroup {
+        flex-direction: column;
+    }
+    .technologiesGroup .textsDiv {
+        width: 100%;
+    }
+    .stacksDiv {
+        flex-direction: row !important;
+        flex-wrap: wrap;
+    }
+    .stackDiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: min-content;
+        width: min-content;
+        padding: 10px;
+        width: 32px;
+    }
+    .stackIcon {
+        margin-left: 0px;
+    }
+    .stackTitle {
+        display: none;
+    }
+}
+
+/* CONTACT */
+#profileContact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    flex-wrap: wrap;
+}
+#profileDivRow {
+    display: flex;
+    flex-direction: row;
+    gap: 10px
+}
+#profileIcon {
+    border-radius: 999px;
+    width: 90px;
+}
+#profileInfosDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    flex: 1
+}
+#profileInfosDiv h1 {
+    font-size: 30px;
+    margin-bottom: -10px;
+    line-height: normal;
+}
+#profileInfosDiv p {
+    font-size: 18px;
+    text-align: left;
+    line-height: 23px;
+    overflow: hidden
+}
+#profileButtonsDivRow {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+#profileButtonsDivRow button {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    padding-left: 7px;
+    background-color: #1a1a1b;
+    border: none;
+    border-radius: 5px;
+    gap: 10px;
+    transition: all ease 0.2s
+}
+#profileButtonsDivRow button:hover {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    padding-left: 7px;
+    background-color: #095ddc;
+    border: none;
+    border-radius: 5px;
+    gap: 10px;
+}
+#profileButtonsDivRow button img{
+    width: 35px;
+}
+#profileButtonsDivRow button p{
+    font-size: 25px;
+}
+@media only screen and (max-width: 425px) {
+    #profileDivRow {
+        flex-direction: column;
+    }
+    #profileContact {
+        gap: 20px
+    }
+    #profileInfosDiv, #profileInfosDiv p {
+        align-items: center;
+        text-align: center;
+    }
+    #profileInfosDiv h1 {
+        margin-bottom: -5px
+    }
+    #profileButtonsDivRow {
+        justify-content: center;
+    }
+}
+
+
+#contactForm {
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    gap: 10px
+}
+#nameInput {
+    height: 50px;
+    background-color: #1a1a1b;
+    border: none;
+    border-radius: 5px
+}
+#emailInput {
+    height: 50px;
+    background-color: #1a1a1b;
+    border: none;
+    border-radius: 5px
+}
+#messageInput {
+    height: 250px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    background-color: #1a1a1b;
+    border: none;
+    resize: none;
+    border-radius: 5px;
+}
+#nameInput, #emailInput {
+    padding: 0px 15px;
+    box-sizing: border-box;
+}
+input, textarea {
+    outline: none;
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 18px;
+}
+#formButtons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#sendInput {
+    height: 50px;
+    flex: 1;
+    border: none;
+    background: rgb(30,58,131);
+    background: linear-gradient(47deg, rgba(30,58,131,1) 0%, rgba(21,99,172,1) 100%);
+    border-radius: 5px;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+#linkedinBtn, #instagramBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+button:hover {
+    cursor: pointer;
+}
+#linkedinBtn img, #instagramBtn img {
+    width: 30px;
+    height: 30px;
+}
+
+.disabled {
+    opacity: 0.3;
+    transition: all linear 0.1s;
+}

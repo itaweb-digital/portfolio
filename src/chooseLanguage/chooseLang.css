@@ -1,0 +1,25 @@
+#chooseLanguagePage {
+    display: flex;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+#chooseLanguageGroup .imagesDivRow {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 25px
+}
+#chooseLanguageGroup .imagesDivRow button {
+    width: min-content;
+    height: 106px;
+    border: none;
+    overflow: hidden;
+}
+@keyframe pageExit{
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
