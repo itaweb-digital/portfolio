@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.5f22a97b.css",
+    "main.js": "/portfolio/static/js/main.91b0611c.js",
+    "static/media/telebotLaptop.png": "/portfolio/static/media/telebotLaptop.21572c471cddcdd05252.png",
+    "static/media/brasil.png": "/portfolio/static/media/brasil.14240b4ab4fd03e1fda7.png",
+    "static/media/confideinsProject.png": "/portfolio/static/media/confideinsProject.c618b348b37145f1c8ac.png",
+    "static/media/profileIcon.png": "/portfolio/static/media/profileIcon.bcb7fd9093a4ba78f62d.png",
+    "static/media/eua.png": "/portfolio/static/media/eua.53b804775bf3d85ec73b.png",
+    "static/media/rolematIcon.svg": "/portfolio/static/media/rolematIcon.985f53754b7931d84698542a15d3df5b.svg",
+    "static/media/rolematWelcomeIcon.svg": "/portfolio/static/media/rolematWelcomeIcon.58fa0558f72768859a231424b2c8c287.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/thinLinkedinIcon.svg": "/portfolio/static/media/thinLinkedinIcon.f9bb547ab7f19d189c2cd8521f059bb2.svg",
+    "static/media/thinInstagramIcon.svg": "/portfolio/static/media/thinInstagramIcon.13c181be5a619b70c4ae95a431462f6b.svg",
+    "static/media/semiCircle.svg": "/portfolio/static/media/semiCircle.394b09e951c7d3f38dff3775bcf9e879.svg",
+    "static/media/triangle.svg": "/portfolio/static/media/triangle.0278764b85cdc950e876fba39cd7d23e.svg",
+    "static/media/arrowIconRight.svg": "/portfolio/static/media/arrowIconRight.85f04f9ef9c2b514e5b95888178a903a.svg",
+    "static/media/arrowIconLeft.svg": "/portfolio/static/media/arrowIconLeft.272e6a82277cd4c22ba4901e2ccbfe86.svg",
+    "static/media/cube.svg": "/portfolio/static/media/cube.80ee2935918c905d1638840c1b65190c.svg",
+    "static/media/rectangle.svg": "/portfolio/static/media/rectangle.3fc80e20ff550c99d10f524a55569081.svg",
+    "main.5f22a97b.css.map": "/portfolio/static/css/main.5f22a97b.css.map",
+    "main.91b0611c.js.map": "/portfolio/static/js/main.91b0611c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f22a97b.css",
+    "static/js/main.91b0611c.js"
+  ]
+}
