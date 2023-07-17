@@ -407,13 +407,14 @@ scrollabe {
         left: 10px;
     }
     #contact #semiCircle {
+        display: none;
         width: 180px;
         top: auto;
         left: 10px;
         bottom: 250px;
     }
     #contact #triangle {
-        top: 250px;
+        top: 20px;
         left: auto;
         right: 20px;
     }
@@ -421,8 +422,8 @@ scrollabe {
         width: 180px;
         top: auto;
         left: auto;
-        right: 30px;
-        bottom: 50px;
+        right: 100px;
+        bottom: 130px;
     }
 }
 
