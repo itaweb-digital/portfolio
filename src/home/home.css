@@ -241,6 +241,12 @@ scrollabe {
 }
 
 /* CONTACT */
+#contact {
+    position: relative;
+}
+#contact .visibleContent {
+    z-index: 2;
+}
 #profileContact {
     display: flex;
     flex-direction: column;
@@ -307,6 +313,74 @@ scrollabe {
 #profileButtonsDivRow button p{
     font-size: 25px;
 }
+#contact #cube {
+    top: 10px;
+    left: 250px;
+}
+#contact #semiCircle {
+    width: 200px;
+    top: auto;
+    left: 300px;
+    bottom: 60px;
+}
+#contact #triangle {
+    top: 70px;
+    left: auto;
+    right: 250px;
+}
+#contact #rectangle {
+    top: auto;
+    left: auto;
+    right: 250px;
+    bottom: 50px;
+}
+@media only screen and (max-width: 1250px) and (min-width: 801px){
+    #contact #cube {
+        top: 10px;
+        left: 50px;
+    }
+    #contact #semiCircle {
+        width: 200px;
+        top: auto;
+        left: 100px;
+        bottom: 60px;
+    }
+    #contact #triangle {
+        top: 70px;
+        left: auto;
+        right: 50px;
+    }
+    #contact #rectangle {
+        top: auto;
+        left: auto;
+        right: 50px;
+        bottom: 50px;
+    }
+}
+@media only screen and (max-width: 800px) and (min-width: 426px){
+    #contact #cube {
+        top: 200px;
+        left: 10px;
+    }
+    #contact #semiCircle {
+        display: none;
+        width: 200px;
+        top: auto;
+        left: 100px;
+        bottom: 20px;
+    }
+    #contact #triangle {
+        top: 150px;
+        left: auto;
+        right: 20px;
+    }
+    #contact #rectangle {
+        top: auto;
+        left: auto;
+        right: 150px;
+        bottom: 50px;
+    }
+}
 @media only screen and (max-width: 425px) {
     #profileDivRow {
         flex-direction: column;
@@ -324,7 +398,34 @@ scrollabe {
     #profileButtonsDivRow {
         justify-content: center;
     }
+
+    #contact .shape {
+        width: 80px;
+    }
+    #contact #cube {
+        top: 20px;
+        left: 10px;
+    }
+    #contact #semiCircle {
+        width: 180px;
+        top: auto;
+        left: 10px;
+        bottom: 250px;
+    }
+    #contact #triangle {
+        top: 250px;
+        left: auto;
+        right: 20px;
+    }
+    #contact #rectangle {
+        width: 180px;
+        top: auto;
+        left: auto;
+        right: 30px;
+        bottom: 50px;
+    }
 }
+
 
 
 #contactForm {

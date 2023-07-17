@@ -2,6 +2,10 @@ import '../home.css'
 import linkedinIcon from '../../imgs/thinLinkedinIcon.svg'
 import instagramIcon from '../../imgs/thinInstagramIcon.svg'
 import profileIcon from '../../imgs/profileIcon.png'
+import triangle from '../../imgs/triangle.svg'
+import cube from '../../imgs/cube.svg'
+import semiCircle from '../../imgs/semiCircle.svg'
+import rectangle from '../../imgs/rectangle.svg'
 
 /*export default function Contact(language){
     const lang = language.language
@@ -79,6 +83,22 @@ export default function Contact(language){
                     </div>
                 </div>
             </div>
+            <img 
+            className='shape'
+            id="triangle"
+            src={triangle}/>
+            <img 
+            className='shape'
+            id="cube"
+            src={cube}/>
+            <img 
+            className='shape'
+            id="semiCircle"
+            src={semiCircle}/>
+            <img 
+            className='shape'
+            id="rectangle"
+            src={rectangle}/>
         </div>
     )
 }
