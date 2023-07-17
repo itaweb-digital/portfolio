@@ -80,9 +80,10 @@
     background: rgb(61,208,255);
     background: linear-gradient(47deg, rgba(61,208,255,1) 0%, rgba(34,83,255,1) 100%);
     border-radius: 40px;
+    transition: all ease 0.3s;
 }
-#exploreButtonBorder:hover {
-    cursor: pointer;
+.exploreButtonBorderActived {
+    width: 120px !important
 }
 #exploreButton {
     width: 100%;
@@ -97,9 +98,7 @@
     padding-bottom: 1px;
     color: white;
     z-index: 100;
-}
-#exploreButton:hover {
-    cursor: pointer;
+    transition: all ease 0.3s;
 }
 
 
@@ -214,4 +213,18 @@
         line-height: 35px;
         margin-bottom: 10px;
     }
+}
+.defaultBlackTransition {
+    transition: all ease 0.6s;
+    display: flex;
+    position: absolute;
+    z-index: 9999999999;
+    background-color: rgba(0, 0, 0, 0);
+    height: 100vh;
+    width: 100vw;
+    top: 0
+}
+.activeTransition {
+    transition: all ease 0.6s;
+    background-color: rgb(0, 0, 0);
 }

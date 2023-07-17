@@ -9,11 +9,26 @@ import rectangle from '../imgs/rectangle.svg'
 import brasil from '../imgs/brasil.png'
 import eua from '../imgs/eua.png'
 
+function pause(ms){
+    return new Promise((response)=>{return setTimeout(response, ms)})
+}
+
 export default function Welcome(props){
     const lang = props.language === 'portuguese' ? languages.portuguese : languages.english
     console.log('welcome')
-    function handleGoToHome(){
+    async function handleGoToHome(){
+        let exploreButtonBorder = document.querySelector('#exploreButtonBorder')
+        exploreButtonBorder.classList.add('exploreButtonBorderActived')
+        let blackTransitionScreen = document.createElement('div')
+        document.querySelector('.App').appendChild(blackTransitionScreen)
+        blackTransitionScreen.classList.add('defaultBlackTransition')
+        await pause(400)
+        blackTransitionScreen.classList.add('activeTransition')
+        await pause(1500)
         document.querySelector('#welcome').remove()
+        blackTransitionScreen.classList.remove('activeTransition')
+        await pause(600)
+        blackTransitionScreen.remove()
     }
     function handleSetLangToPT(){
         props.setLanguage('portuguese')
